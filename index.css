@@ -8,10 +8,11 @@
 
 
 .icon{
-    float:left;
+    
     margin-top:2%;
     padding-left:3%;
     display: inline-block;
+    float: left;
 }
 
 .navbar{
@@ -53,7 +54,7 @@ ul li a {
     
    
 }
-.force ul {
+.force {
     float: right; 
     margin-left:200px;
 
@@ -72,24 +73,26 @@ ul li a {
     position: relative;
     top: 0;
     left: 0;
+   
   }
   .image1 {
     position: relative;
     top: 0;
     left: 0;
+    margin-top: 25px;
    
   }
   .image2 {
     position: absolute;
     top: 30px;
     left: 700px;
-    margin-top: 220px;
+    margin-top: 210px;
   }
 .sec{
     position:absolute;
     top: 0;
     left: 0;
-    margin-top: 300px;
+    margin-top: 250px;
     font-weight:bold;
     font-size:50px;
     color:#333391;
@@ -103,7 +106,7 @@ ul li a {
     top: 0;
     left: 0;
     font-size:10px;
-    margin-top: 3px;
+    margin-top: 0px;
     color:black;
     padding-left:50px;
 }
@@ -111,7 +114,7 @@ ul li a {
 
 .demo li{
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 20px;
     padding-left:20px;
     height: 500px;
     width: 200px;
@@ -134,4 +137,79 @@ ul li a {
     background-color:#2b7ec7;
     color:white;
 }
+.footer-void{
+    float: left;
+    margin-top: 100px;
+    width: 1200px;
+    height: 75%;
+    
+    
+}
+.glass{
+    
+         float: left;
+    display: inline-block;
 
+}
+
+.down{
+    float: left;
+    margin-top: 50px;
+    padding-right: 1000px;
+   
+}
+.power{
+    list-style-type: none;
+    float:right;
+position: absolute;
+    padding-left: 500px;
+    padding-top: 0px;
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+   
+
+}
+h4{
+    font-weight: lighter;
+    font-size: larger;
+    color: black;
+    font-weight: bolder;
+   
+   
+}
+.lap{
+
+    float:right;
+position: absolute;
+    padding-left: 850px;
+    padding-top: 0px;
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+    
+}
+.top{
+    list-style-type: none;
+    float:right;
+position: absolute;
+    padding-left: 1200px;
+    padding-top: 0px;
+    margin-top: 1%;
+    text-decoration: none;
+    font-size: 12px;
+    color: grey;
+   
+}
+ol li {
+    list-style-type: none;
+
+}
+/*.quix{
+    padding-top: 250px;
+    padding-left: 15px;
+    
+}
+*/
