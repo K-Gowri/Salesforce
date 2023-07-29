@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f5f5f5;
+}
+
+
+
+
+.icon{
+    
+   
+    padding-left:0%;
+    display: inline-block;
+    float: left;
+    background-color: white !important;
+}
+
+.navbar{
+    width: 1500px;
+    height: 75%;
+    
+    position: static;
+}
+
+.menu {
+    width: 500px;
+    float: left;
+    height: 70px;
+   
+   
+}
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white !important;
+   
+}
+ul li{
+    list-style: none ;
+    margin-left: 15px;
+
+    font-size: 17px;
+    background-color: white !important;
+    
+    
+
+}
+ul li a {
+    text-decoration: none;
+    color:black;
+    
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    background-color: white !important;
+   
+}
+#quik{
+    font-size: 10px;
+    background-color: white !important;
+}
+.force {
+    float: right; 
+    margin-left:200px;
+    background-color: white !important;
+
+}
+
+
+#spot{
+    width: 150px;
+    height: 35px;
+    background-color: green;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.sha{
+position: relative;
+display: flexbox;
+float: left;
+margin-top: 1px;
+margin-left: 350px;
+
+}
+.knock1{
+    height: 1111px;
+    background-color: #e3e2e2;
+    width: 170px;
+    border: 2px solid #FFFFFF;
+}
+.knock1 ul{
+    text-decoration: none;
+    display: inline;
+    color:#201773 !important;
+    font-size: 13px;
+    font-weight: bold;
+   
+}
+#wire{
+    color:black !important;
+    font-weight: lighter !important;
+    font-size: 30px;
+}
+.bos{
+    color:black !important;
+    
+    
+}
+.bos2{
+    font-size: 15px !important;
+    padding-left: 55px !important;
+}
+.bos1{
+    color:black !important;
+}
+.part1{
+    position: absolute;
+    font-weight:lighter;
+    margin-top: 120px;
+    margin-left: 550px;
+
+}
+.part2 ol li {
+    list-style-type: none;
+    display:inline-block;
+    font-size: 25px;
+    
+}
+.part2 ol{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chan{
+   
+    float: right;
+    border: 2px solid rgb(4, 74, 4);
+    position: relative;
+    margin-left: 90px;
+    margin-top: -4px;
+    
+}
+.hil{
+    float: right;
+    border: 2px solid rgb(4, 74, 4);
+    
+    margin-left: 400px;
+    margin-top: -7px;
+    
+}
+.container{
+    position:absolute;
+  margin-top: 350px;
+  margin-left: 560px;
+
+
+}
+.camp {
+    width:169px;
+    height: 270px;
+    background-color: white!important;
+    border-radius: 1px;
+    border: 2px solid white;
+    box-shadow: 2px  2px 7px 7px whitesmoke;
+    position: relative;
+top:-40px;
+
+}
+.camp p{
+    background-color: white !important;
+    position: relative;
+    top: -20px;
+}
+ 
+.box {
+    width: 90px;
+    height: 20px;
+  
+    position: relative;
+  margin-left: 30px;
+  justify-content: center;
+  background-color: #134e9c;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  top:-12px;
+  
+  }
+
+ .camp h3{
+    position: relative;
+   margin-top: -6px;
+   background-color: white;
+
+ }
+ .bill{
+ position: inherit;
+ bottom: auto;
+ 
+ }
+ .camp h3 span{
+    font-size: 44px;
+    background-color: white;
+ }
+ .salesforce{
+    position: absolute;
+    top:-2px;
+    margin-left: 200px;
+ }
+ 
+ .salesforce2{
+    position: absolute;
+   margin-left: 440px;
+   bottom:-20px;
+   top:-5px;
+ }
+ .salesforce4{
+    position: absolute;
+   margin-left: 670px;
+   top:-3px;
+ }
+ .globe{
+    border:2px solid #DEF9F3;
+    width:790px;
+    position: relative;
+    top:644px;
+    margin-left: 579px;
+height:240px;
+background-color: #DEF9F3;
+
+ }
+ #pip{
+    width: 300px;
+    position: relative;
+    float: right;
+    top:-95px;
+    
+
+ }
+ .knack11{
+    
+    border: 2px solid #0a5698;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    background-color:#064e8d;
+    color:white;
+    font-weight: bold;
+    margin-left: 40px;
+   border-radius: 5px;
+   position: relative;
+   bottom: -44px;
+    
+    
+}
+.box1 
+{
+    background-color: #DEF9F3;
+}
+.box1 h3 {
+    background-color: #DEF9F3;
+    color:#0a5698;
+    margin-left:43px;
+    position: relative;
+    bottom:-33px;
+    
+
+}
+.box1 p{
+    background-color: #DEF9F3;
+    font-size: 12px;
+    margin-left:43px;
+    position: relative;
+    bottom:-43px;
+}
+#tin{
+    font-size: 7px;
+    position: absolute;
+    bottom:-3px;
+}
+#fn{
+    position:absolute;
+    margin-left: 564px;
+    bottom: -297px;
+}
+
+table  {
+    border-collapse: collapse;
+    width: 700px;
+    position: relative;
+    bottom: -790px;
+    
+    position: relative;
+    margin-left: 600px;
+
+  }
+  
+  tr {
+    border-bottom: 1px solid rgb(224, 224, 224);
+   
+
+
+}
+table ,tr, td {
+
+border:2px solid rgb(230, 228, 228);
+background-color: #fbfbfb;
+border-left:hidden;
+border-right:hidden;
+ }
+  table,th{
+   background-color: white;
+    padding-bottom:33px;
+    border-top: 2px solid white;
+    border-bottom:2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    justify-content: center;
+  }
+  td{
+    padding-bottom:30px;
+    border:1px solid #ddd;
+    font-size: 10px;
+    margin-left: 22px;
+
+
+  }
+  #spot1{
+    width: 150px;
+    height: 35px;
+    background-color:#0a5698;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    border:2px solid #0a5698;
+    border-radius:2px ;
+    margin-top: 22px;
+    margin-left: 33px;
+  
+}
+
+  .sn1{
+    width:600px;
+  }
+  
+.box2{
+    width:100px;
+    height: 55px;
+    background-color: rgb(13, 77, 13);
+    font-size: 7px;
+    margin-left: 33px;
+    margin-top: 22px;
+    color: white;
+    justify-content: center;
+}
+ td ,img{
+position: relative;
+margin-left: 77px;
+margin-top: 10px;
+justify-items: center;
+}
+.harsha{
+    position: relative;
+    margin-top:- 2px;
+    margin-left: -2px;
+}
+.oss{
+    position:absolute;
+    margin-left:600px;
+    bottom:-967px;
+}
+.box7{
+    width:730px;
+    
+    position: relative;
+    height: 544px;
+    background-color: white;
+    margin-left: 595px;
+    bottom:-900px
+}
+.box7 ul, li, img{
+    top:-6px;
+    margin-left: -3px;
+    }
+    .box7 hr{
+    color: black;
+    border: 1px solid  rgb(224, 224, 224);;
+    width:700px;
+    }
+    .box7 p{
+background-color: white;
+    }
+    .box7 img{
+       top:20px;
+    }
