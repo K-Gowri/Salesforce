@@ -180,11 +180,12 @@ ul li a {
 }
 .power{
     list-style-type: none;
-    float:right;
+    
 position: absolute;
-    padding-left: 500px;
-    padding-top: 0px;
-    margin-top: 1%;
+position: absolute;
+
+margin-left: -25px;
+bottom:-733px;
     text-decoration: none;
     font-size: 12px;
     color: grey;
@@ -201,30 +202,36 @@ h4{
 }
 .lap{
 
-    float:right;
-position: absolute;
-    padding-left: 750px;
-    padding-top: 0px;
-    margin-top: 1%;
-    text-decoration: none;
-    font-size: 12px;
-    color: grey;
+    list-style-type: none;
+    
+    position: absolute;
+    
+    
+    margin-left: -25px;
+    bottom:-1020px;
+        text-decoration: none;
+        font-size: 12px;
+        color: grey;
+
     
 }
 .top{
+    
     list-style-type: none;
-    float:right;
-position: absolute;
-    padding-left: 1000px;
-    padding-top: 0px;
-    margin-top: 1%;
-    text-decoration: none;
-    font-size: 12px;
-    color: grey;
+    
+    position: absolute;
+    
+    
+    margin-left: -25px;
+    bottom:-853px;
+        text-decoration: none;
+        font-size: 12px;
+        color: grey;
    
 }
 ol li {
     list-style-type: none;
+    text-decoration: none;
 
 }
 /*.quix{
