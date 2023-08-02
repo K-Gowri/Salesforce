@@ -580,3 +580,11 @@ margin-left: 200px;
 .knack12{
     font-size: x-small;
 }
+#purna:hover{
+    background-color:blue;
+}
+@media all and (max-width:500px){
+    body{
+        color:blue;
+    }
+}

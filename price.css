@@ -718,3 +718,8 @@ ol li {
     background-color: white;
     margin-left: 295px;
 }
+@media all and (max-width:500px){
+    body{
+        color:blue;
+    }
+}
