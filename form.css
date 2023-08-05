@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img1{
+    
+    position: relative;
+   bottom:-30px;
+    margin-left:105px;
+   
+}
+.content{
+    position: relative;
+    margin-left:300px;
+   top:-73px;
+    
+}
+.content h2{
+    font-size: 40px;
+    color:#090342;
+}
+.content p{
+    font-size: 17px;
+}
+.void ul li  {
+    text-indent: 1em;
+list-style-type: none;
+font-size: 17px;
+   
+}
