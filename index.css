@@ -29,6 +29,11 @@
     
    
 }
+.kabi{
+    display:flex;
+    flex-direction: row;
+    
+}
 
 ul{
     float: left;
@@ -266,6 +271,10 @@ ol li {
     border-radius: 12px;
     border: 2px solid white;
     box-shadow: 2px  2px 7px 7px whitesmoke;
+    flex-direction: row;
+    box-sizing: border-box;
+    flex-direction: row;
+    border-collapse: collapse;
 }
  .camp img{
     position: relative;
