@@ -6,6 +6,10 @@
     <title>form</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="form.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    
 </head>
 <body>
 <div class="img1">
@@ -16,9 +20,9 @@
 <div class="content">
 <h2>Start your free trial.</h2>
 <br>
-<p>No credit card requird , no software to install.<br>
+<p >No credit card requird , no software to install.<br>
     <br>
-    With your 30-day trial, you get:</p><br>
+    With your 30-day trial, you get:</p><br></div>
    <div class="void">
     <ul class="pip">
         <li><img src="images\fimg2.png" width="23px">&emsp;Pre-loaded data or upload your own</li><br>
@@ -37,28 +41,105 @@
 <div class="box1">
     <div >
         <p class="Oops">Sign up now to start your free sales trial.</p>
-  <p class="mint">Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial.
-</p>  
-<form>
-    <div class="container-fluid">
-       
-        <div class="row">
-          <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12"> <label for="fname">First name</label><br>
-            <input type="text" id="fname" name="fname" placeholder=" &emsp;&emsp;First Name"></div>  
-        </div>
-        <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12" id="las">  <label for="lname">Last name</label><br>
-            <input type="text" id="lname" name="fname" placeholder="&emsp;&emsp;Last Name">
-        </div>
-        <div class="row">
-            <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12"> <label for="email">Email</label><br>
-              <input type="email" id="email" name="fname" placeholder="Email"></div>  
-          </div>
-          </div>
-      </div>
-      
+  <p class="mint">Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial</p>  
   
-</form>
+<form id="form" class="form">
+    <div class="flex-container">
+        <div class="data-control"> 
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <small >Error message</small>
+            <i class='bx bxs-error' style='color:#d80f0f'  ></i>
+            <i class='bx bxs-chevron-right-circle' style='color:#3bd80f'  ></i> 
+        </div>
+        <div   class="data-control">     
+            <input type="text" id="sname" name="sname" placeholder="Last Name" >
+            <small>Error message</small>
+            <i class='bx bxs-error' style='color:#d80f0f'  ></i>
+            <i class='bx bxs-chevron-right-circle' style='color:#3bd80f'  ></i>
+        </div>
+        <div class="data-control">
+            <input type="email" id="email" name="email" placeholder="Email">
+           
+            <i class='bx bxs-error' id="mic" style='color:#d80f0f'></i>
+            <i class='bx bxs-chevron-right-circle' id='base' style='color:#3bd80f'  ></i>
+            <small class="mini">Error message</small>
+          </div>    
+          <div  class="data-control">
+              <select id="job" class="main-control" name="job"  >   
+                <small class="mini">Error message</small>
+                  <i class='bx bxs-error' style='color:#d80f0f' ></i>
+                  <i class='bx bxs-chevron-right-circle' style='color:#3bd80f'></i>        
+                  <option value="job">Job Title</option>
+                  <option value="sales">Sales Manager</option>
+                  <option value="mark">Marketing / PR Manager</option>
+                  <option value="customer">Customer Service Manager</option>
+                  <option value="it">IT Manager</option>
+                  <option value="op">Operastions Manager</option>
+                  <option value="dev">Developer / Software Engineer</option>
+                  <option value="stu">Student / Job Seeker / Personal Interents</option>
+                  <option value="other">Other</option> 
+                  <i class='bx bxs-error' id="mic" style='color:#d80f0f'></i>
+                  <i class='bx bxs-chevron-right-circle' id='base' style='color:#3bd80f'  ></i>
+                  <span class="mini">Error message</span>
+              </select>    
+          </div> 
+          <div class="data-control"> 
+            <input type="text" id="company" name="company" placeholder=" Company">
+            <small class="mini">Error message</small>
+         
+            <i class='bx bxs-error' style='color:#d80f0f' id="lav"></i>
+            <i class='bx bxs-chevron-right-circle' style='color:#3bd80f' id="sai" ></i>        
+           
+          </div>  
+          <div class="data-control">
+            <select id="employ" name="employ" >            
+                <option >Employees</option>
+                <option >1 - 25 employees </option>
+                <option >26 - 100 employees</option>
+                <option >101 - 200 employees</option>
+                <option >201 - 500 employees</option>
+                <option >501 - 2000 employees</option>        
+                <option >2000+ employees</option> 
+            </select>   
+        </div>
+        <div class="data-control"> 
+            <input type="phone" id="phone" name="phone" placeholder=" Phone">
+            <small class="mini">Error message</small>
+         
+            <i class='bx bxs-error' style='color:#d80f0f' id="big"></i>
+            <i class='bx bxs-chevron-right-circle' style='color:#3bd80f' id="busy" ></i>        
+          </div>  
+          <div id="kiki">
+              <select id="country" name="country" >        
+                  <option >Country/Region</option>
+                  <option >America</option>
+                  <option >Germany</option>
+                  <option >Austrila</option>
+                  <option >Hustia</option>
+                  <option >Scotland</option>       
+                  <option >India</option> 
+                  <option >Mongolia</option> 
+                   <option >Iceland</option> 
+              </select>
+          </div>
+         <div class="sales">
+            <input type="checkbox"  onclick="myfunction()" name="validation" id="validation" onchange='enable()' />
+            <label for="validation">I agree <span> to the Main service Agreement.</span></label> <br><br>
+            <p id="text" style="display:none">Checkbox is CHECKED!</p>
+         </div>
+         <p class="bot">By registering, you confirm that you agree to the storing and processing of your<br> personal data by Salesforce as described in the <span>Privacy Statement.</span></p>
+          <button id="btn"> START MY FREE TRIAL</button>
+  
+        </div>
+      
+          
+    </form> 
+
+    </div>
+     
 </div>
 </div>
+<script type="text/javascript" src="./form.js">
+</script>
 </body>
 </html>

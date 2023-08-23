@@ -27,23 +27,72 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-indent: 1em;
 list-style-type: none;
 font-size: 17px;
+position: relative;
+margin-left: 320px;
+top:-90px;
    
 }
+.team{
+    position: relative;
+    margin-left: 320px;
+top:-90px;
+   
+}
+#job:hover{
+     background-color: #def0ef;
+}
+#country:hover{
+    background-color: #def0ef;
+}
+#employ:hover{
+    background-color: #def0ef;
+}
+#fname:hover{
+    background-color: #def0ef;
+}
+#sname:hover{
+    background-color: #def0ef;
+}
+#company:hover{
+    background-color: #def0ef;
+}
+#phone:hover{
+    background-color: #def0ef;
+}
+#employ:hover{
+    background-color: #def0ef;
+}
+option:checked,
+        option:hover {
+          background-color: #def0ef;
+        }
+        select:hover{
+            background-color: #def0ef;
+        }
+        
+
+
+#text{
+    position: relative;
+    font-size: 12px;
+    color:rgb(5, 213, 95);
+    top:-23px;
+}
 .over{
-    width:700px;
-    height: 300px;
+    width:550px;
+    height: 400px;
     margin-left: 250px;
-    top: 490px;
+    top: 413px;
     position: absolute;
 }
 .box1{
     background-color: rgb(247, 244, 244);
-    height: 470px;
+    height: 550px;
     width: 500px;
     position: absolute;
     margin-left: 900px;
     
-    bottom:190px;
+    bottom:100px;
 }
 .Oops{
     color:#090342;
@@ -60,26 +109,195 @@ font-size: 17px;
 }
 
 #fname{
+    border: 2px solid black;
     border-radius: 5px;
     height:30px;
     width:179px;
+    margin-left: 17px;
 
 }
-.container-fluid{
+.form{
     position: relative;
-    top: 14px;
+    top: 29px;
 }
-#lname{
+#sname{
+    border: 2px solid black;
     border-radius: 5px;
     height:30px;
     width:179px;
-
+margin-left: 255px;
+position: relative;
+top:-30px;
 }
-#las{
+#email{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 17px;
+position: relative;
+top:-2px;
+
+   
+}
+
+#job{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 253px;
     position: relative;
-    top:-55px;
-    margin-left:256px;
+    top:-32px; 
+}
+#company{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 17px;
+position: relative;
+top:-2px;
+}
+#employ{
+    border: 2px solid black;
+   border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 253px;
+    position: relative;
+    top:-34px; 
+}
+
+#phone{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 17px;
+position: relative;
+top:-2px; 
+}
+
+#country{
+    border: 2px solid black;
+    border-radius: 5px;
+    height:30px;
+    width:179px;
+    margin-left: 253px;
+    position: relative;
+    top:-34px; 
 
 }
+
+
+i{
+    position: absolute;
+    top: 9px;
+   margin-left: -22px;
+   visibility: hidden;
+}
+.mini{
+    position: relative;
+    bottom:29px;
+    top:26px;
+}
+#mic{
+    position: absolute;
+    bottom:-112px;
+    top:70px;
+    margin-left: -29px;
+}
+#base{
+    position: absolute;
+    bottom:-112px;
+    top:70px;
+    margin-left: -29px;
+}
+#lav{
+    position: absolute;
+    bottom:-112px;
+    top:130px;
+    margin-left: 32px;
+}
+#sai{
+    position: absolute;
+    bottom:-112px;
+    top:130px;
+    margin-left: 36px;
+}
+#big{
+    position: absolute;
+    bottom:-112px;
+    top:185px;
+   margin-left: 2px;
+}
+#busy{
+    position: absolute;
+    bottom:-112px;
+    top:185px;
+   margin-left: 2px;
+}
+span{
+    color:rgb(118, 118, 231);
+    font-weight: lighter;
+}
+.sales{
+    position: absolute;
+    margin-left: 22px;
+  
+}
+.flex-container{
+    position: absolute;
+    bottom:-302px;
+}
+.bot{
+    font-size: 11px;
+    position: absolute;
+  bottom:-40px;
+    margin-left: 22px;
+
+}
+
+small{
+visibility: hidden;
+position: absolute;
+bottom:12px;
+top:35px;
+margin-left: -169px;
+}
+button{
+     background-color: #14068fc5;
+    color: white;
+    position: relative;
+  
+    width: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    height: 43px;
+    bottom: -100px;
+    margin-left: 90px;
+}
+.data-control.success input{
+    border-color:#2ecc71;
+    background-color: #def0ef;
+}
+.data-control.error input{
+    border-color:#e74c3c;
+    background-color: #f9dbd8;
+    
+}
+.data-control.success i.bxs-chevron-right-circle{
+    visibility: visible;
+}
+.data-control.error i.bxs-error{
+    visibility: visible;
+    
+}
+.data-control.error small{
+    color:#e74c3c;
+    visibility: visible;
+}
+
 
 
