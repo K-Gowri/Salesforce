@@ -14,25 +14,34 @@
     padding-left:0%;
     display: inline-block;
     float: left;
-}
-
-.navbar{
-    width: 1400px;
-    height: 75%; 
+    margin-left: 40px;
     
 }
 
+.navbar{
+    width: 100%;
+    height: 75%; 
+   
+}
+.memo{
+    background-color: white;
+    height: 92px;
+    position: fixed;
+    z-index: 100;
+}
 .menu {
     width: 100px;
     float: left;
     height: 70px;
-    
-   
 }
 .kabi{
     display:flex;
     flex-direction: row;
-    
+    position: fixed;
+    margin-left: -560px;
+    font-weight: 900;
+   
+ 
 }
 
 ul{
@@ -43,7 +52,7 @@ ul{
 }
 ul li{
     list-style: none ;
-    margin-left: 15px;
+    margin-left: 25px;
 
     font-size: 20px;
     
@@ -52,69 +61,85 @@ ul li{
 }
 ul li a {
     text-decoration: none;
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    transition: 0.4 ease-in-out;
+    color:rgba(10, 22, 75, 0.908);
+    font-family: 'Nunito Sans', sans-serif;
     
+    transition: 0.4 ease-in-out;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight:bold;
+   
    
 }
 #quik{
-    font-size: 13px;
+    font-size: 10px;
 }
 .force {
     float: right; 
-    margin-left:200px;
-
+    margin-left:790px;
+  
 }
+
 
 
 #spot{
-    width: 100px;
-    height: 32px;
-    background-color: rgb(45, 142, 45);
+    width: 130px;
+    height: 46px;
+    background-color: rgb(16, 119, 64);
     text-decoration: none;
     color:white;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 15px;
     border: 2px solid  rgb(45, 142, 45);
-    border-radius: 7px;
+    border-radius: 3px;
+    font-family: sans-serif;
+  margin-left: 19px;
+    margin-right: 61px;
+    padding-right: -12px;
+}
+.mis{
+    padding: -50px;
+    
 }
 #spot:hover{
-background-color: rgb(3, 52, 3);
+background-color: rgb(2, 24, 2);
 }
-.parent {
-    position: relative;
-    top: 0;
-    left: 0;
-   
-  }
+
   .image1 {
     position: relative;
     top: 0;
     left: 0;
-    margin-top: 25px;
+    margin-top: 90px;
+    height: 500px;
    
   }
+  .image3{
+    position: relative;
+    margin-left: -512px;
+   margin-bottom: -10px;
+   margin-top: -200px;
+  }
+  
   .image2 {
     position: absolute;
-    top: 30px;
-    left: 700px;
-    margin-top: 210px;
-    width: 500px;
+
+    margin-top: -370px;
+   height: 450px;
+   margin-left: 340px;
   }
 .sec{
     position:absolute;
-    top: 0;
-    left: 0;
+    
+    margin-left: 12px;
+    bottom:-321px;
+    width:100%;
     margin-top: 200px;
     font-weight:bold;
-    font-size:40px;
-    color:#333391;
+    font-size:50px;
+    color:#011334d4;
     padding-left:77px;
-    font-family: 'Times New Roman', Times, serif;
-    
-    
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
     
 }
 
@@ -122,14 +147,13 @@ background-color: rgb(3, 52, 3);
 .scale{
     position:absolute;
     top:0%;
-    font-size:10px;
+    font-size:20px;
     margin-top: 400px;
-    color:black;
-    padding-left:77px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    background-color: white;
-    border: 1px solid white;
+    color:rgb(66, 65, 65);
+   margin-left: 85px;
+    font-family: 'Nunito Sans', sans-serif;
+  
+    
 }
 
 
@@ -148,20 +172,17 @@ background-color: rgb(3, 52, 3);
     border: 2px solid #1382e2;
     width: 150px;
     height: 50px;
-    font-size: 12px;
+    font-size: 15px;
     background-color: white;
     color:#1382e2;
     position: relative;
     margin-left: -50px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
     
-    
 }
-#end:hover{
-    background-color: #83c5ff;
-}
-#start:hover{
-    background-color: #090342;
-}
+
+
 #vii:hover{
     background-color: #83c5ff;
 }
@@ -181,22 +202,26 @@ background-color: rgb(3, 52, 3);
 }
 .mis:hover{
 background-color: #83c5ff;
-border-radius: 2px;
+border-radius: 50px;
 }
 .kabi a:hover{
     color:#2b7ec7;
     text-decoration: none;
 }
+
 .knack2{
     
     border: 2px solid #1382e2;
-    width: 150px;
+    width: 170px;
     height: 50px;
     font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
     background-color:#2b7ec7;
     color:white;
-    
-    
+    position: relative;
+    top:-1px;
+    border-radius: 3px;
+   
 }
 .knack1:hover{
     background-color: #def0ef;
@@ -204,10 +229,14 @@ border-radius: 2px;
 .knack3:hover{
     background-color: #def0ef;
 }
-.mic{
-    position: absolute;
-    bottom:-200px;
-    margin-left: 12px;
+#watch:hover{
+    background-color: #def0ef;
+}
+.mibe{
+    position: relative;
+bottom: -200px;
+   float: left;
+   margin-left: -120px;
     color: grey;
     font-size: 15px;
     font-weight: bold;
@@ -227,7 +256,7 @@ ul li .knack4:hover{
     width: 1200px;
     height: 75%;
     position: absolute;
-    bottom:-4700px;
+    bottom:-3400px;
     margin-left:100px
 }
 .glass{
@@ -247,12 +276,13 @@ ul li .knack4:hover{
     list-style-type: none;
     
 position: absolute;
-position: absolute;
+float: right;
 
-margin-left: -25px;
-bottom:-650px;
+margin-right: -925px;
+margin-left: 400px;
+bottom:-185px;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 9px;
     color: grey;
    
 
@@ -273,11 +303,14 @@ h4{
 
     list-style-type: none;
     
+   
     position: absolute;
-    
-    
-    margin-left: -25px;
-    bottom:-850px;
+float: right;
+
+margin-right: -925px;
+margin-left: 300px;
+bottom:-350px;
+   
         text-decoration: none;
         font-size: 12px;
         color: grey;
@@ -286,6 +319,7 @@ h4{
 }
 .bib{
     color:#1382e2;
+    font-size: 12px !important;
 }
 .top{
     
@@ -293,12 +327,16 @@ h4{
     
     position: absolute;
     
-    
-    margin-left: -25px;
-    bottom:-733px;
+  
         text-decoration: none;
         font-size: 12px;
         color: grey;
+        position: absolute;
+float: right;
+
+margin-right: -925px;
+margin-left: 200px;
+bottom:-235px;
    
 }
 ol li {
@@ -316,60 +354,85 @@ ol li {
     position: absolute;
     justify-content: center;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Nunito Sans', sans-serif;
     float: left;
     padding-left: 370px;
-    bottom: -750px;
+    bottom: -850px;
     font-weight: bold;
     color:#090342;
 
 }
-.container{
-    position: relative;
-    top: -500px;
-    padding-left: 300px;
+
+#flex{
+    display: flex;
+   position: relative;
+    flex-direction: row !important;
+  float: left;
+  margin-left:360px;
   
-    
+   margin-top: -570px;
+   gap: 230px;
 }
 .camp{
-    width:169px;
-    height: 270px;
+    width:270px;
+    height: 400px;
     background-color: white;
     border-radius: 12px;
     border: 2px solid white;
-    box-shadow: 2px  2px 7px 7px whitesmoke;
-    flex-direction: row;
+    box-shadow: 5px  2px 7px 7px whitesmoke;
+   position: relative;
     box-sizing: border-box;
-    flex-direction: row;
-    border-collapse: collapse;
+  
+  
+ 
+    margin-left: -172px;
+    gap:1rem;
+}
+.mas{
+    position: relative;
+    top:-70px;
 }
  .camp img{
     position: relative;
-    top:-30px;
+    top:-60px;
     border-radius: 12px;
+    height: 150px;
 }
 .camp h1{
-    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     color: #090342;
     position: relative;
-    top: -12px;
-   margin-left: -35px;
+
+   margin-left: -100px;
+
+}
+.data{
+    color:#090342;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 20px;
+}
+#col{
+    position:relative;
+    margin-left: 14px;
 
 }
 .camp p{
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
     top: -10px;
     padding-top: 0%;
-    margin-left: -15px;
-
+    margin-left: -70px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .camp u{
-    color:#07032e;
-  margin-left: -80px;
+    font-family: 'Nunito Sans', sans-serif;
+  margin-left: -160px;
   position: relative;
-  bottom: -25px;
+  bottom: -20px;
+  font-size: 16px;
+  color: #090342;
 }
 .knack3{
     border: 2px solid #1382e2;
@@ -378,9 +441,23 @@ ol li {
     font-size: 12px;
     background-color: white;
     color:#1382e2;
-    position: relative;
-    margin-left: 650px;
-    top:-450px;
+    position:absolute;
+    margin-left: 700px;
+margin-top:-122px;
+    font-weight: bold;
+    
+    
+}
+.knack17{
+    border: 2px solid #1382e2;
+    width: 200px;
+    height: 50px;
+    font-size: 12px;
+    background-color: white;
+    color:#1382e2;
+    position:absolute;
+    margin-left: 670px;
+margin-top:-302px;
     font-weight: bold;
     
     
@@ -391,20 +468,30 @@ ol li {
    top:1500px;
 }
 #smart{
-    margin-left: 400px;
+    margin-left: 420px;
     font-weight: bold;
-    color: #090342;
+    color: #002045;
+    font-family: 'Nunito Sans', sans-serif;
+    position: relative;
+    bottom:-107px;
+    font-size: 45px;
 }
 .sha{
-    margin-left: 500px;
+    margin-left: 400px;
     text-indent: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+    position: relative;
+    bottom:-117px;
 }
 .key1{
     position: relative;
-    bottom: -150px;
-    margin-left: 450px;
+    bottom: -250px;
+    margin-left: 530px;
+    font-family: 'Nunito Sans', sans-serif;
+
 }
-.knack5{
+.swe{
     border: 2px solid #1382e2;
     width: 150px;
     height: 50px;
@@ -413,60 +500,85 @@ ol li {
     color:#1382e2;
     position: relative;
     margin-left: -50px;
-    
-    
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
 }
-.knack4{
-    
-    border: 2px solid #1382e2;
+.spixy{
+      border: 2px solid #1382e2;
+      border-radius: 3px;
     width: 150px;
     height: 50px;
     font-size: 12px;
     background-color:#2b7ec7;
     color:white;
-    
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500px;
     
 }
-.key2{
+.spixy:hover{
+    background-color: #190b9a;
+}
+
+
+.key22{
     position:relative;
+    height:310px;
+    bottom:-190px;
 }
 .sha1{
     
-    margin-left: 450px;
+    margin-left: 370px;
    position: absolute;
-   top:150px;
-   color:#090342;
+   top:500px;
+   color: #002045;
    font-weight: bolder;
+   font-size: 45px;
 }
 .phone{
     position: relative;
-    bottom:-100px;
-    
+    bottom:100px;
+    margin-left: -529px;
 }
+
 .ece{
     position: relative;
-    width:140px;
-    height: 60px;
-    border-radius: 5px;
-    background-color: white;
-    border:3px solid white;
-    box-shadow:  5px 2px 5px 1px rgb(204, 201, 201);  
-    margin-left: -100px;
-}
-.ece1{
-    position: relative;
-    width:140px;
-    height: 60px;
+    width:190px;
+    height: 90px;
     border-radius: 5px;
     background-color: white;
     border:3px solid white;
     box-shadow:  5px 2px 5px 1px rgb(204, 201, 201);  
     margin-left: -50px;
-    bottom:-22px;
+    
 }
+.voice{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    position: relative;
+    top: -100px;
+}
+.mere{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+ margin-left: 400px;
+ gap:40px;
+    position: relative;
+    top: -90px;
+}
+.book{
+    position: absolute;
+    margin-top: -632px;
+   
+}
+
 .star{
     position: relative;
-    width: 900px;
+    width: 1100px;
     border: 5px solid black;
     bottom: -750px;
     margin-left: 300px;
@@ -483,185 +595,211 @@ ol li {
     bottom: -400px;
     margin-left: 790px;
 }
+
 .chan{
   position: absolute;  
-  bottom:-2700px;
+ bottom:-212px;
   margin-left: 350px;
   font-weight: bold;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35px;
+  color: #002045;
+  
 }
 .knack10{
     border: 2px solid #1382e2;
-    width: 120px;
+    width: 170px;
     height: 50px;
     font-size: 12px;
     background-color: white;
     color:#1382e2;
     position: relative;
     margin-left: -70px;
-    
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 3px;
     
 }
 .knack9{
     
     border: 2px solid #1382e2;
-    width: 150px;
+    width: 170px;
     height: 50px;
     font-size: 12px;
     background-color:#2b7ec7;
     color:white;
+   
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 3px;
     
     
 }
 .star1{
-    position: relative;
-    bottom: -360px;
-    margin-left:270px;
+    position: absolute;
+    bottom:-872px;
+    margin-left: 300px;
     font-weight: bold;
 }
 .boot2{
     position:absolute;
-    bottom:-3040px;
-    margin-left: 400px;
-    color:#090342;
+   bottom:240px;
+
+    margin-left: 430px;
+    color: #002045;
     font-weight: bold;
+    font-size: 40px;
 
 }
+.acc  {
+    position: absolute;
+  
+  bottom:-1000px;
+  margin-left: 30px;
+  color: #002045;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+}
+
 .cse{
     position: relative;
-    bottom: -1100px;
+    bottom: -900px;
     float: left;
-    margin-left: -550px;
-    border:2px solid white;
+    
+    height:270px;
    
-}
-
-.page{
-    position: relative;
-    bottom:-1350px;
-    margin-left: -500px;
-    color: #090342;
-    font-weight: lighter;
-
 }
 .cse2{
-    position: absolute;
-    bottom:-1100px;
-   margin-left: -250px;
-   border:2px solid white;
-}
-.page1{
-    position: absolute;
-    bottom: -1170px;
-    margin-left: -250px;
-    font-weight: lighter;
-    color: #090342;
-
+    position: relative;
+    bottom: -900px;
+    float: left;
+    
+    height:270px;
+   
 }
 .cse3{
+    position: relative;
+    bottom: -900px;
     float: left;
-    position: absolute;
-    bottom:-1100px;
-   margin-left: 40px;
+    
+    height:270px;
    
-   border:2px solid white;
-}
-.page3{
-    position: absolute;
-    float: left;
-    bottom: -1170px;
-    margin-left: 40px;
-    font-weight: lighter;
-    color: #090342;
-
 }
 .cse4{
+    position: relative;
+    bottom: -900px;
     float: left;
-    position: absolute;
-    bottom:-1100px;
-   margin-left: 310px;
+    
+    height:270px;
    
-   border:2px solid white;
 }
-.page4{
-    position: absolute;
-    float: left;
-    bottom: -1170px;
-    margin-left: 20px;
-    font-weight: lighter;
-    color: #090342;
-    left: 310px;
 
+.hor{
+    position: relative;
+   display: inline-block;
+   display: flex;
+   flex-direction: row;
+   margin-left: -250px;
 }
+
 .note{
     position: relative;
-    bottom:-700px;
+    bottom:-1400px;
+    height: 400px;
+  
+    border-bottom-left-radius: 20px;
 }
 .blue{
     position: absolute;
-    bottom: -3600px;
-    margin-left: 370px;
+  bottom:-470px;
+    margin-left: 400px;
     font-weight: bold;
+    color: #002045;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 45px;
 }
 .momo{
     position: relative;
-    width:250px;
-    height: 150px;
+width: 350px;
+    height: 300px;
     bottom: -850px;
     float:left;
     margin-left: 140px;
     background-color: white;
     border-radius: 6px;
     border:2px solid white;
+    box-shadow: 2px 5px 10px 12px solid white;
+}
+.mic{
+    display: flex;
+    flex-direction: row;
+    margin-left: -239px;
+    position: relative;
+
 }
 .momo1{
-    font-size: xx-small;
-    margin-left: 12px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    bottom:-830px;
+    float: right;
+    margin-right: -115px;
+    display: inline-block;
+    color: rgb(61, 59, 59);
+    font-weight: 300;
 }
 .drive{
     position: absolute;
-    bottom: -5000px;
-    margin-left: 350px;
+    bottom: -2100px;
+    margin-left: 250px;
+   
+}
+.fee{
+    height: 500px;
+    width: 1000px;
+    border-radius: 14px;
 }
 .dops{
     position: absolute;
  top:70px;
     font-weight: bold;
 margin-left: 200px;
+font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
 
 }
 .air{
     position: absolute;
     top:190px;
     margin-left: 200px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 .knack11{
     
     border: 2px solid #1382e2;
-    width: 120px;
+    width: 140px;
     height: 50px;
-    font-size: 12px;
+    font-size: 15px;
     background-color:#2b7ec7;
     color:white;
     font-weight: bold;
     margin-left: 100px;
     border-radius: 7px;
+    font-family: 'Nunito Sans', sans-serif;
     
 }
 .start{
     position:relative;
-    top:-49px;
-
+    top:-110px;
+    margin-left: 100px;
+display: flex;
+flex-direction: row;
+gap:22px;
 
 }
 .knack12 a{
     font-size: 15px;
     color: #190b9a;
+  
 }
-#purna:hover{
-    background-color:blue;
-}
-@media all and (max-width:500px){
-    body{
-        color:blue;
-    }
-}
+
