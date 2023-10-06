@@ -43,10 +43,10 @@
     }
    
     #budh{
-        margin-left: -640px;
+        margin-left: -630px;
        }
        #user{
-        margin-left: -670px;
+        margin-left: -660px;
        }
         .master{
             visibility: hidden;
@@ -56,7 +56,7 @@
     }
     #spot{
         float:left;
-        margin-left: -660px;
+        margin-left: -650px;
         width:90px;
     }
 }
