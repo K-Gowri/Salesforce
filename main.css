@@ -10,24 +10,24 @@
         visibility: hidden;
     }
    
-    #budh{
-        margin-left: -530px;
-        display: flex;
-        flex-direction: row;
-       
-
+   #budh{
+    margin-left: -530px;
+   }
+   #user{
+    margin-left: -550px;
+   }
+    .master{
+        visibility: hidden;
     }
     .dia{
         visibility: hidden;
     }
     #spot{
         float:left;
-        margin-left: -540px;
+        margin-left: -530px;
         width:100px;
     }
-    .user{
-        margin-left: -550px !important;
-    }
+   
 }
 
 @media only screen and (max-width:500px){
@@ -43,12 +43,14 @@
     }
    
     #budh{
+        margin-left: -610px;
+       }
+       #user{
         margin-left: -630px;
-        display: flex;
-        flex-direction: row;
-       
-
-    }
+       }
+        .master{
+            visibility: hidden;
+        }
     .dia{
         visibility: hidden;
     }
