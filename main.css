@@ -22,8 +22,11 @@
     }
     #spot{
         float:left;
-        margin-left: -520px;
+        margin-left: -540px;
         width:100px;
+    }
+    .user{
+        margin-left: -550px !important;
     }
 }
 
